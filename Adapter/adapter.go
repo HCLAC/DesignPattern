@@ -66,7 +66,7 @@ type ForeignCenter struct {
 	name string
 }
 
-func (f *ForeignCenter) attack() {
+func (f *ForeignCenter) attack(what string) {
 	if f == nil {
 		return
 	}
@@ -83,11 +83,12 @@ type Translator struct {
 	f ForeignCenter
 }
 
+// 这是用户想要的接口
 func (t *Translator) attack() {
 	if t == nil {
 		return
 	}
-	t.f.attack()
+	t.f.attack("进攻")
 }
 func (t *Translator) defense() {
 	if t == nil {
