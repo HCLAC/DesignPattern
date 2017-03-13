@@ -7,7 +7,7 @@ Use GO language to achieve 23 design patterns
 - [Abstract Factory抽象工厂模式：](https://github.com/HCLAC/DesignPattern/tree/master/AbstractFactory)提供一个创建一系列相关或者相互依赖对象的接口，而无需指定他们具体的类
 - [Builder建造者模式：](https://github.com/HCLAC/DesignPattern/tree/master/Builder)将一个复杂对象的构建与它表示分离，使得同样的构建过程可以创建不同的表示
 - [Factory Method工厂方法模式：](https://github.com/HCLAC/DesignPattern/tree/master/FactoryMethod)定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到其子类
-- [Prototype 原型模式：]()用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象（clone浅复制、深复制）
+- [Prototype 原型模式：](https://github.com/HCLAC/DesignPattern/tree/master/Prototype)用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象（clone浅复制、深复制）
 - [Singleton单例模式：](https://github.com/HCLAC/DesignPattern/tree/master/Singleton)保证一个类仅有一个实例，并提供一个访问它的全局访问点。
 
 
