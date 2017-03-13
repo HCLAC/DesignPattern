@@ -7,7 +7,7 @@
  日期：   20170308
 */
 
-package component
+package composite
 
 import (
 	"fmt"
