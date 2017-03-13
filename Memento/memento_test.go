@@ -15,4 +15,4 @@ func TestMemento(t *testing.T) {
 	gr.StateDisplay()
 	gr.RecoveryState(caretaker.memento)
 	gr.StateDisplay()
-}memento_test.go
+}
