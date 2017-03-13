@@ -7,6 +7,7 @@
  个人想法：Invoker维护请求队列（Command接口队列），通过一些函数可以添加、修改、执行请求队列，
          在每一种ConcreteCommand中有对该命令的执行体（Receiver），最终响应请求队列的命令
  作者：   HCLAC
+ 日期：   20170310
 */
 
 package command
