@@ -3,7 +3,7 @@ Use GO language to achieve 23 design patterns
 该项目是拜读《大话设计模式》后，学习Golang语言实现的，有很多不足之处，有待完善  
 有些模式是根据UML图编写的基本框架，有些是基于特定的环境下编写的实例
 
-##创建型模式
+## 创建型模式
 - [Abstract Factory抽象工厂模式：](https://github.com/HCLAC/DesignPattern/tree/master/AbstractFactory)提供一个创建一系列相关或者相互依赖对象的接口，而无需指定他们具体的类
 - [Builder建造者模式：](https://github.com/HCLAC/DesignPattern/tree/master/Builder)将一个复杂对象的构建与它表示分离，使得同样的构建过程可以创建不同的表示
 - [Factory Method工厂方法模式：](https://github.com/HCLAC/DesignPattern/tree/master/FactoryMethod)定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到其子类
@@ -11,7 +11,7 @@ Use GO language to achieve 23 design patterns
 - [Singleton单例模式：](https://github.com/HCLAC/DesignPattern/tree/master/Singleton)保证一个类仅有一个实例，并提供一个访问它的全局访问点。
 
 
-##结构型模式
+## 结构型模式
 - [Adapter适配器模式：](https://github.com/HCLAC/DesignPattern/tree/master/Adapter)将一个类的接口转换成客户端希望的另一个接口。适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作
 - [Bridge桥接模式：](https://github.com/HCLAC/DesignPattern/tree/master/Bridge)将抽象化(Abstraction)与实现化(Implementation)脱耦，使得二者可以独立地变化；
 - [Composite合成/组合模式：](https://github.com/HCLAC/DesignPattern/tree/master/Composite)将对象组合成树形结构，以表示“部分-整体”的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性
@@ -21,7 +21,7 @@ Use GO language to achieve 23 design patterns
 - [Proxy 代理模式：](https://github.com/HCLAC/DesignPattern/tree/master/Proxy)为其他对象提供一种代理，以控制对这个对象的访问。
 
 
-##行为性模式
+## 行为性模式
 - [Chain Of Responsibility 职责链模式：](https://github.com/HCLAC/DesignPattern/tree/master/Chain%20Of%20Responsibility)使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止
 - [Command 命令模式：](https://github.com/HCLAC/DesignPattern/tree/master/Command)将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或者记录请求日志，以及支持可撤销的操作
 - [Interpreter 解释器模式：](https://github.com/HCLAC/DesignPattern/tree/master/Interpreter)给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子
